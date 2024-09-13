@@ -11,14 +11,14 @@ public class FabricanteCelularSingleton {
         if(tipo.equals("apple")){
             if(apple == null)
                 apple = new Apple();
-            return apple;
+            
         }
+        return apple;
         else {
             if(samsung == null)
                 samsung = new Samsung();
-            return samsung;
-        }
-        
+         }
+        return samsung;
         
     }
     
